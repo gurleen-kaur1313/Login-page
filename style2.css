@@ -31,7 +31,16 @@ input{
   border: none;
   width: 70%;
   padding: 0.8rem;
-
+  transition: 0.25px;
+  cursor: pointer;
+}
+input:hover{
+  border-radius: 20px;
+  border: none;
+  width: 70%;
+  padding: 0.8rem;
+  transition: 0.25px;
+  border-color: blue;
 }
 h2{
   font-family: cursive;
